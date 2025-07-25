@@ -15,7 +15,7 @@ public class class_githubSelect {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		WebElement search_box=driver.findElement(By.xpath("//input[@class='desktop-searchBar']"));
-		search_box.sendKeys("jackets");
+		search_box.sendKeys("suits");
 		Thread.sleep(2000);
 		WebElement search_icon=driver.findElement(By.xpath("//a[@class='desktop-submit']"));
 		search_icon.click();
